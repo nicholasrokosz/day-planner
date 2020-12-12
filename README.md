@@ -4,4 +4,4 @@ This is a simple planner application that uses the [moment.js](https://momentjs.
 
 Please check out the deployed project at: https://nicholasrokosz.github.io/day-planner/
 
-![screenshot](/homework/day-planner/img/day_planner.png)
+![screenshot](img/day_planner.png)
