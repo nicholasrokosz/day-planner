@@ -24,11 +24,11 @@ function createTimeSlot(hour) {
   $('.container').each(function () {
     //console.log($timeSlot.attr("value"));
     if ($timeSlot.attr('value') < currentTime) {
-      $textArea.css('background-color', 'gray');
+      $textArea.css('background-color', '#d1d5da');
     } else if ($timeSlot.attr('value') == currentTime) {
-      $textArea.css('background-color', 'red');
+      $textArea.css('background-color', '#f97583');
     } else {
-      $textArea.css('background-color', 'green');
+      $textArea.css('background-color', '#85e89d');
     }
   });
   return $timeSlot;
