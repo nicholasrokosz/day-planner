@@ -34,6 +34,8 @@ function createTimeSlot(hour) {
   return $timeSlot;
 }
 
+$('#current-day').text(luxon.DateTime.local().toFormat('ff'));
+
 let plansForDay = localStorage.getItem('plansForDay');
 if (plansForDay) {
   plansForDay = JSON.parse(plansForDay);
